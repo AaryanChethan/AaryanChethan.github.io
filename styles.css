@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 36px; /* Increased font size */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px; /* Increased font size */
+}
+
+.signup-btn {
+    background: #fff;
+    color: #2575fc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+}
+
+.signup-btn:hover {
+    background: #2575fc;
+    color: #fff;
+}
+
+/* Main Section */
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+    color: #fff;
+    text-align: left;
+}
+
+.main-content {
+    display: flex;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.text-content {
+    max-width: 600px;
+}
+
+.text-content h2 {
+    font-size: 48px; /* Increased font size */
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 24px; /* Increased font size */
+    margin-bottom: 15px;
+}
+
+.cta-btn {
+    background: #fff;
+    color: #2575fc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px; /* Increased font size */
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background: #2575fc;
+    color: #fff;
+}
+
+.image-content img {
+    max-width: 400px;
+}
